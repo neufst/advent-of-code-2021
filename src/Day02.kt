@@ -33,6 +33,7 @@ fun main() {
             var depth: Int = 0
             var aim: Int = 0
         }
+
         fun setNewCourse(command: String, steps: Int) {
             when (command) {
                 "forward" -> {
@@ -53,8 +54,6 @@ fun main() {
         }
         return position.horizontal * position.depth
     }
-
-
 
 
     val testInput = readInput("Day02_test")
